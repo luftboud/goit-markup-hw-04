@@ -1,0 +1,351 @@
+:root {
+  --brand-color: #2196f3;
+  --brand-background-color: #2f303a;
+  --text-color: #212121;
+  --white-color: #ffffff;
+  --gray-color: #757575;
+  --background-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+li {
+  list-style-type: none;
+}
+.logo {
+  color: var(--text-color);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo .part-of-logo {
+  color: var(--brand-color);
+}
+.iteractive-element {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-header .contact {
+  color: var(--gray-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.order-section {
+  background-color: var(--brand-background-color);
+}
+.order-section h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-section button {
+  background-color: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  border: 0;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+.benefits-section h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-section p {
+  color: var(--gray-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.we-do-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-section {
+  background-color: var(--background-color);
+}
+.our-team-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-section p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+.our-team-section li {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
+}
+.filters button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  background-color: var(--background-color);
+  border-radius: 4px;
+  height: 38px;
+  padding: 6px 22px;
+}
+.filters button:hover,
+.filters button:focus {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+.projects h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+.contacts-footer .contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer {
+  background-color: var(--brand-background-color);
+}
+footer .logo {
+  color: var(--white-color);
+}
+.footer p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.address {
+  font-style: normal;
+}
+.iteractive-element:hover,
+.contact:hover,
+.iteractive-element:focus,
+.contact:focus {
+  color: var(--brand-color);
+}
+
+/* geometry styles */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+}
+.h-box {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header .item:not(:last-child) {
+  flex-grow: 45px;
+  margin-right: 50px;
+}
+.contacts-header > .item:not(:last-child) {
+  margin-right: 40px;
+}
+header {
+  border-bottom: 1px solid #ececec;
+}
+header .logo {
+  margin-right: 93px;
+  padding: 24px 0 25px;
+}
+.iteractive-element {
+  padding: 32px 0;
+}
+.contacts-header {
+  margin-left: auto;
+}
+/* main */
+.section {
+  padding: 94px 0;
+}
+/* studio sections */
+/* 1-st section */
+.order-section {
+  padding: 200px 0;
+  text-align: center;
+}
+.order-button {
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+.order-section h1 {
+  width: 695px;
+  margin: 0 auto 30px auto;
+}
+/* 2-nd section */
+.benefits-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+.benefits-section h3 {
+  margin: 0 0 10px;
+}
+.benefits-section p {
+  margin: 0;
+  width: 270px;
+}
+.benefits-box {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/* 3-rd section */
+.we-do-section {
+  padding-top: 0;
+}
+.we-do-section h2 {
+  margin: 0 0 50px;
+}
+.we-do-section .container {
+  flex-direction: column;
+}
+.we-do-section ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.we-do-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+/* 4-th section */
+.our-team-section .container {
+  flex-direction: column;
+}
+.our-team-section h2 {
+  margin: 0 0 50px;
+}
+.our-team-section ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.our-team-section li {
+  padding-bottom: 30px;
+}
+.our-team-section li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-section h3 {
+  margin: 30px 0 0;
+}
+.our-team-section p {
+  margin: 10px 0 0;
+}
+/* portfolio section */
+/* filters */
+.filters ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.filters li:not(:last-child) {
+  margin-right: 8px;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 50px 0 0;
+}
+.card-set .item {
+  width: 370px;
+
+  /* flex-basis: calc((100% - 60px)/3);  */
+}
+.card-set h3 {
+  margin: 0 0 4px;
+}
+.card-set p {
+  margin: 0;
+}
+.card-text {
+  border-right: 1px solid#EEEEEE;
+  border-bottom: 1px solid#EEEEEE;
+  border-left: 1px solid#EEEEEE;
+  padding: 20px 24px;
+}
+/* footer */
+footer {
+  padding: 60px 0;
+}
+footer address {
+  margin-top: 28px;
+}
+footer p {
+  margin: 0 0 12px;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer li:not(:last-child) {
+  margin-bottom: 12px;
+}
