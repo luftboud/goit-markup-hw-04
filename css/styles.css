@@ -119,7 +119,7 @@ footer .contact:focus {
   padding: 200px 0;
   text-align: center;
   background-color: var(--brand-background-color);
-  background-image: url(/images/background-image.jpg);
+  background-image: url(../images/background-image.jpg);
   box-shadow: inset 0 0 0 2000px rgba(47, 48, 58, 0.4);
   background-repeat: no-repeat;
   background-size: 1600px, cover;
