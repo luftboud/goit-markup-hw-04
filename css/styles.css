@@ -243,7 +243,6 @@ footer .contact:focus {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
-  height: 428px;
 }
 .our-team-section .container {
   flex-direction: column;
@@ -321,6 +320,8 @@ footer .contact:focus {
 .filters button:focus {
   background-color: var(--brand-color);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filters ul {
   display: flex;
@@ -342,6 +343,10 @@ footer .contact:focus {
 }
 .card-set .item {
   width: 370px;
+}
+.card-set .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-set h3 {
   margin: 0 0 4px;
@@ -379,7 +384,7 @@ footer .logo {
   color: var(--white-color);
 }
 .footer p {
-  margin: 0 0 12px;
+  margin: 0 0 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -392,7 +397,7 @@ footer {
   padding: 60px 0;
 }
 footer address {
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
 footer ul {
@@ -400,7 +405,7 @@ footer ul {
   margin: 0;
 }
 .contacts-footer li:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 footer .container {
   display: flex;
@@ -413,9 +418,10 @@ footer .container {
 .join-us h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 15px 0 20px;
 }
 .join-us li {
   margin: 0;
@@ -428,6 +434,7 @@ footer .container {
 }
 .join-us-contacts .contacts-item {
   background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
 }
 .contacts-item:hover,
 .contacts-item:focus {
