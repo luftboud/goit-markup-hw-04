@@ -116,7 +116,9 @@ footer .contact:focus {
   height: 50px;
 }
 .order-section {
+  max-width: 1600px;
   padding: 200px 0;
+  margin: 0 auto;
   text-align: center;
   background-color: var(--brand-background-color);
   background-image: url(../images/background-image.jpg);
@@ -231,15 +233,16 @@ footer .contact:focus {
   letter-spacing: 0.03em;
   color: var(--gray-color);
 }
-.our-team-section ul {
+.list-of-members {
   display: flex;
   margin: 0;
   padding: 0;
 }
-.our-team-section li {
-  padding-bottom: 30px;
+.team-member {
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 
+    0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
@@ -247,7 +250,7 @@ footer .contact:focus {
 .our-team-section .container {
   flex-direction: column;
 }
-.our-team-section li:not(:last-child) {
+.our-team-section .team-member:not(:last-child) {
   margin-right: 30px;
 }
 .team-member-contacts {
@@ -255,8 +258,10 @@ footer .contact:focus {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-top: 16px;
+  padding: 0 0 30px;
   fill: var(--light-gray-color);
+  margin-top: 16px;
+
 }
 .contacts-item {
   display: flex;
@@ -266,11 +271,7 @@ footer .contact:focus {
   height: 44px;
   border-radius: 50%;
 }
-/* .contacts-item:hover,
-.contacts-item:focus {
-  fill: var(--white-color);
-  background-color: var(--brand-color); 
-} */
+
 /* 5-th section */
 .regular-customers h2 {
   margin: 0 0 50px;
@@ -287,7 +288,7 @@ footer .contact:focus {
   padding: 0;
   margin: 0;
 }
-.customer-item {
+.customer-item a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,8 +298,8 @@ footer .contact:focus {
   border: 1px solid var(--light-gray-color);
   border-radius: 4px;
 }
-.customer-item:hover,
-.customer-item:focus {
+.customer-item a:hover,
+.customer-item a:focus {
   fill: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
@@ -408,6 +409,7 @@ footer ul {
   margin-bottom: 9px;
 }
 footer .container {
+  align-items: baseline;
   display: flex;
   gap: 70px;
 }
@@ -421,7 +423,7 @@ footer .container {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 15px 0 20px;
+  margin: 0 0 20px;
 }
 .join-us li {
   margin: 0;
