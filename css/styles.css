@@ -262,7 +262,7 @@ footer .contact:focus {
   fill: var(--light-gray-color);
   margin-top: 16px;
 }
-.team-member-contacts li {
+.team-member {
   padding-bottom: 30px;
 }
 .contacts-item {
